@@ -57,7 +57,7 @@ namespace ISP_20_29
             }
             else
             {
-                MessageBox.Show("Неправильный логин или пароль");
+                MessageBox.Show("Вспомни пароль дурик");
             }
 
         }
