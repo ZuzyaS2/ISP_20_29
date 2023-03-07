@@ -1,0 +1,39 @@
+﻿<Window x:Class="ISP_20_29.LogPass"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISP_20_29"
+        mc:Ignorable="d"
+        Title="LogPass" Height="450" Width="800">
+    <Grid OpacityMask="#FF00F167">
+        <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="235,279,0,0" VerticalAlignment="Top" Height="47" Width="94" Foreground="#FF3A12FF">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE42121" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Login1" Content="Login" HorizontalAlignment="Left" Margin="400,279,0,0" VerticalAlignment="Top" Height="47" Width="94" Foreground="Red">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF134DFF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="235,80,0,0" VerticalAlignment="Top" Width="103" Height="34">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <Label x:Name="Password" Content="Password" HorizontalAlignment="Left" Margin="235,171,0,0" VerticalAlignment="Top" Width="103" Height="33"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="235,0,0,0" VerticalAlignment="Center" Width="180" Height="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="235,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="24"/>
+
+    </Grid>
+</Window>
